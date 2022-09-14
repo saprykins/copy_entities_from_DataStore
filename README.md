@@ -12,3 +12,6 @@ import entities
 ```
 gcloud datastore import --kinds="test" gs://tempo-bucket-datastore-exported/test/test.overall_export_metadata --async
 ```
+```
+gcloud datastore import --kinds="data_transcoding" gs://tempo-bucket-datastore-exported/data_transcoding/data_transcoding.overall_export_metadata --async
+```
